@@ -1,1 +1,61 @@
-nav>ol>li {background-color: blueviolet;}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 28px;
+}
+
+nav {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+div {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 18px;
+}
+
+img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+input {
+    width: 250px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button,
+input[type="submit"] {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+}
