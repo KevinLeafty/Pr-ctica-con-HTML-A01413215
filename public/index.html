@@ -29,17 +29,69 @@
     <div>
         <p><strong>Login</strong></p>
 
-        <form>
-            <p>Username:</p>
-            <input type="text">
+        <p>Username:</p>
+        <input type="text" id="username">
 
-            <p>Password:</p>
-            <input type="password">
+        <p>Password:</p>
+        <input type="password" id="password">
 
-            <br />
-            <input type="submit" value="Entrar">
-        </form>
+        <br><br>
+
+        <button onclick="login()">Entrar</button>
+
+        <p id="mensaje"></p>
     </div>
+
+    <br />
+
+    <div>
+        <p><strong>Radio Button</strong></p>
+
+        <input type="radio" name="mostrar" onclick="mostrarContenido()">
+        <label>Mostrar contenido</label>
+
+        <div id="contenidoOculto" style="display:none;">
+            <p>Contenido visible</p>
+        </div>
+    </div>
+
+    <br />
+
+    <div>
+        <p><strong>Dropdown</strong></p>
+
+        <label>Pais:</label>
+        <select>
+            <option>Mexico</option>
+            <option>Estados Unidos</option>
+            <option>Canada</option>
+        </select>
+
+        <br><br>
+
+        <label>Region:</label>
+        <select>
+            <option>Nuevo Leon</option>
+            <option>Jalisco</option>
+            <option>CDMX</option>
+        </select>
+    </div>
+
+    <br />
+
+    <div>
+        <p><strong>Checkbox</strong></p>
+
+        <input type="checkbox" id="check1" onclick="activarBoton()">
+        <label>Acepto terminos</label><br>
+
+        <input type="checkbox" id="check2" onclick="activarBoton()">
+        <label>Acepto privacidad</label><br><br>
+
+        <button id="botonFinal" disabled>Continuar</button>
+    </div>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
